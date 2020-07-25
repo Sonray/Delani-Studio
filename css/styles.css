@@ -1,6 +1,11 @@
 #showDesign, #showDevelopment, #showProduct {
     display: none;
 }
-.col-md-3{
-    margin-right: 2%;
+.space{
+    padding-right: 2%;
+    width: 5vw;
+    height: 10vh;
+}
+.row {
+    justify-content: space-evenly;
 }
