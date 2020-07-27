@@ -63,3 +63,20 @@
 #mc-embedded-subscribe:hover{
     background-color: yellow;
 }
+.jumbotron img {
+    margin-bottom: 10vh;
+}
+.jumbotron img {
+    margin-bottom: 10vh;
+}
+.centerServices{
+    padding-top: 15vh;
+}
+.socials{
+    margin-top: 5vh;
+    width: 40vw;
+    margin-left: 20vw;
+}
+.copyright, .container{
+    margin-top: 5vh;
+}
