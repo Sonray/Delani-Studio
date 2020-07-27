@@ -30,6 +30,9 @@ $(document).ready(function(){
         $("#showProduct").toggle()
     });
 
-    
+    $("#mc-embedded-subscribe").click(function(){
+        var name = $("#mce-FNAME").val();
+        alert("Thank you "+ name +" for reaching out to us. Your message will be tken in kind")
+    })
 
 });

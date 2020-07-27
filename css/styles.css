@@ -1,11 +1,19 @@
 #showDesign, #showDevelopment, #showProduct {
     display: none;
 }
-.space{
+.col-md-3{
     padding-right: 2%;
-    width: 5vw;
-    height: 10vh;
+    width: 15vw;
+    height: 30vh;
+    text-align: center;
 }
 .row {
     justify-content: space-evenly;
+}
+.portfolio img{
+    height: 30vh;
+    width: 19vw;
+}
+*{
+    text-align: center;
 }
