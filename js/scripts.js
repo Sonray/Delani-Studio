@@ -35,10 +35,36 @@ $(document).ready(function(){
         alert("Thank you "+ name +" for reaching out to us. Your message will be tken in kind")
     })
 
-    $('#port1').mouseover(function(){
-        $('Hov1').show()
-    }).mouseout(function(){
-        $('#Hov1').hide()
+    $("#port1").hover(function(){
+        $('#Hov1').fadeToggle(1500, "linear")
+    })
+
+    $("#port2").hover(function(){
+        $('#Hov2').fadeToggle(1500, "linear")
+    })
+
+    $("#port3").hover(function(){
+        $('#Hov3').fadeToggle(1500, "linear")
+    })
+
+    $("#port4").hover(function(){
+        $('#Hov4').fadeToggle(1500, "linear")
+    })
+
+    $("#port5").hover(function(){
+        $('#Hov5').fadeToggle(1500, "linear")
+    })
+
+    $("#port6").hover(function(){
+        $('#Hov6').fadeToggle(1500, "linear")
+    })
+
+    $("#port7").hover(function(){
+        $('#Hov7').fadeToggle(1500, "linear")
+    })
+
+    $("#port8").hover(function(){
+        $("#Hov8").fadeToggle(1500, "linear")
     })
 
 });

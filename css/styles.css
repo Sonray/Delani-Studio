@@ -81,6 +81,18 @@
 .copyright, .container{
     margin-top: 5vh;
 }
-#hov8{
+#Hov1, #Hov2, #Hov3, #Hov4, #Hov5, #Hov6, #Hov7, #Hov8{
+    border-style: 5px solid black;
+    position: relative;
+    color: white;
+    margin-top: -28vh;
+    font-size: 40px;
+    background-color: black;
+    margin-left: 1.5vw;
+    height: 25vh;
+    font-weight: bolder;
+    opacity: 0.8;
+}
+.white{
     display: none;
 }
