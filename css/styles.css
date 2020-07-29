@@ -96,3 +96,6 @@
 .white{
     display: none;
 }
+body{
+    overflow-x: hidden;
+}
